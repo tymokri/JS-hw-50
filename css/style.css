@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+}
+h1 {
+    margin: 0;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+}
+
+.gallery,
+.photo-album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.column {
+    width: 200px;
+}
+
+.go-button {
+    margin: 2rem 10rem;
+    text-align: center;
+}
+
+.image:hover {
+    transform: translateY(-2px);
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px black;
+}
